@@ -5,6 +5,4 @@ python-dateutil
 chromadb
 sentence-transformers
 pymongo
-bson
-transformers
 python-dotenv
