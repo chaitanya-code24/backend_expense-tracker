@@ -1,4 +1,9 @@
 fastapi
 uvicorn
+pydantic
+python-dateutil
+chromadb
+sentence-transformers
 pymongo
 python-dotenv
+groq
