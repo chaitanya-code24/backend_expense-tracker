@@ -1,9 +1,9 @@
 fastapi
 uvicorn
-pydantic
-python-dateutil
+pymongo
 chromadb
 sentence-transformers
-pymongo
+torch==2.2.1+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+python-dateutil
 python-dotenv
-groq
