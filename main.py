@@ -41,7 +41,7 @@ class Expense(BaseModel):
 # CORS config
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://ai-expense-tracker-nm0txqk8e-chaitanya-lokhandes-projects.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
