@@ -144,8 +144,7 @@ async def chat_with_model(query: str, uid: str):
         extract_prompt = f"""
         Extract expense data from the user message. If no expense is found, respond only with 'NO_EXPENSE'.
 
-        Allowed categories:
-        {ALLOWED_CATEGORIES}
+        Allowed categories: "🍴 Food", "🥤 Drinks & Snacks", "🛺 Transport", "🚬 Addiction", "🧼 Groceries / Essentials", "🍕 Junk Food", "🏠 Stay / Rent", "🎭 Entertainment"
 
         Response JSON format:
         {{
