@@ -134,7 +134,7 @@ def delete_expense(expense_id: str):
 ALLOWED_CATEGORIES = [
     "🍴 Food", "🥤 Drinks & Snacks", "🛺 Transport", "🚬 Addiction",
     "🧼 Groceries / Essentials", "🍕 Junk Food", "🏠 Stay / Rent",
-    "🎭 Entertainment", "other"
+    "🎭 Entertainment"
 ]
 
 @app.post("/chat")
